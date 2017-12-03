@@ -28,6 +28,7 @@ public partial class ForgotPwd : System.Web.UI.Page
             
                 //lblErrorMsg.Text = "Please enter email address or username to recover your login credentials.";
             }
+			//ttesting
             else if (Email != "")
             {
                 string[] user = ConnectionDatabase.ConnectionDatabase.ForgotPasswordByEmail(Email);
